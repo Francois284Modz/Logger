@@ -72,11 +72,5 @@ class Logger {
     }
 }
 
-// Usage example:
-$logFileName = 'myapp.log';
-$logger = new Logger($logFileName);
-$logger->info('This is an info message.');
-$logContent = $logger->readLogs();
-echo nl2br(htmlspecialchars($logContent));
-$logger->deleteLogFile();
+
 ?>
